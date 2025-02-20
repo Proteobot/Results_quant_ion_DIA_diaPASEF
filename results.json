@@ -1,2 +1,101 @@
 [
+  {
+    "old_new":"new",
+    "id":"DIA-NN_20250220_084841",
+    "software_name":"DIA-NN",
+    "software_version":"2.0 Academia ",
+    "search_engine":"DIA-NN",
+    "search_engine_version":"2.0 Academia ",
+    "ident_fdr_psm":"0.01",
+    "ident_fdr_peptide":null,
+    "ident_fdr_protein":"0.01",
+    "enable_match_between_runs":true,
+    "precursor_mass_tolerance":"[-10 ppm, 10 ppm]",
+    "fragment_mass_tolerance":"[-10 ppm, 10 ppm]",
+    "enzyme":"Trypsin\/P",
+    "allowed_miscleavages":"1",
+    "min_peptide_length":"6",
+    "max_peptide_length":"30",
+    "is_temporary":false,
+    "intermediate_hash":"ae6c81d357992b94e43aaa248d28be663bafdf60",
+    "results":{
+      "6":{
+        "median_abs_epsilon":0.1355285645,
+        "mean_abs_epsilon":0.1910751008,
+        "variance_epsilon":0.0734483526,
+        "nr_prec":91153,
+        "CV_median":0.1083828283,
+        "CV_q90":0.2743398029,
+        "CV_q75":0.182876429,
+        "CV_q95":0.3415852185
+      },
+      "5":{
+        "median_abs_epsilon":0.1449756622,
+        "mean_abs_epsilon":0.2065640212,
+        "variance_epsilon":0.0865081773,
+        "nr_prec":103577,
+        "CV_median":0.1134652568,
+        "CV_q90":0.2918447361,
+        "CV_q75":0.1928124467,
+        "CV_q95":0.3634780727
+      },
+      "4":{
+        "median_abs_epsilon":0.1520195007,
+        "mean_abs_epsilon":0.2213758341,
+        "variance_epsilon":0.1023742538,
+        "nr_prec":111033,
+        "CV_median":0.1152609006,
+        "CV_q90":0.2980544828,
+        "CV_q75":0.1965193564,
+        "CV_q95":0.3721063142
+      },
+      "3":{
+        "median_abs_epsilon":0.154750824,
+        "mean_abs_epsilon":0.2273155225,
+        "variance_epsilon":0.1090669241,
+        "nr_prec":116612,
+        "CV_median":0.1162095619,
+        "CV_q90":0.3008984904,
+        "CV_q75":0.198382059,
+        "CV_q95":0.3756380296
+      },
+      "2":{
+        "median_abs_epsilon":0.1559848785,
+        "mean_abs_epsilon":0.2302207539,
+        "variance_epsilon":0.1131668185,
+        "nr_prec":119508,
+        "CV_median":0.1163741589,
+        "CV_q90":0.3016777706,
+        "CV_q75":0.1988376309,
+        "CV_q95":0.3770795446
+      },
+      "1":{
+        "median_abs_epsilon":0.1559848785,
+        "mean_abs_epsilon":0.2302207539,
+        "variance_epsilon":0.1131668185,
+        "nr_prec":121305,
+        "CV_median":0.1163741589,
+        "CV_q90":0.3016777706,
+        "CV_q75":0.1988376309,
+        "CV_q95":0.3770795446
+      }
+    },
+    "median_abs_epsilon":0.154750824,
+    "mean_abs_epsilon":0.2273155225,
+    "nr_prec":116612,
+    "comments":"",
+    "proteobench_version":"0.6.0",
+    "color":"#8c564b",
+    "hover_text":"ProteoBench ID: DIA-NN_20250220_084841<br>Software tool: DIA-NN <br>Comment (private submission): ",
+    "scatter_size":20,
+    "fixed_mods":"unimod4",
+    "variable_mods":"UniMod:35\/15.994915\/M,UniMod:1\/42.010565\/*n",
+    "max_mods":"1",
+    "min_precursor_charge":"1",
+    "max_precursor_charge":"4",
+    "quantification_method":"QuantUMS high-precision",
+    "protein_inference":"Genes",
+    "abundance_normalization_ions":null,
+    "submission_comments":"\n\n ### Parameter changes Detected:\n- **ident_fdr_peptide**: `0.01` \u2192 `nan`\n- **ident_fdr_psm**: `None` \u2192 `0.01`\n\nDataset URL: https:\/\/proteobench.cubimed.rub.de\/datasets\/ae6c81d357992b94e43aaa248d28be663bafdf60\/"
+  }
 ]
