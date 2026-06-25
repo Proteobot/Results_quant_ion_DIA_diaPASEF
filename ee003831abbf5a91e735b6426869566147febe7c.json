@@ -1,5 +1,4 @@
 {
-  "old_new": "new",
   "id": "DIA-NN_20251027_132217",
   "software_name": "DIA-NN",
   "software_version": "1.8",
@@ -49,13 +48,9 @@
       "CV_q75": 0.23066702489662563,
       "CV_q90": 0.36523203214612454,
       "CV_q95": 0.46091613564758066,
-      "roc_auc": 0.9461004865134359,
-      "roc_auc_directional": 0.9724250916795345,
-      "nr_prec": 78138,
-      "nr_prec_HUMAN": 62831,
-      "nr_prec_YEAST": 12028,
-      "nr_prec_ECOLI": 3279,
-      "variance_epsilon_global": 0.11846274522241554
+      "variance_epsilon_global": 0.11846274522241554,
+      "nr_feature": 78138,
+      "roc_auc": 0.9461004865134359
     },
     "5": {
       "median_abs_epsilon_global": 0.16952732014617133,
@@ -88,13 +83,9 @@
       "CV_q75": 0.24559471231517366,
       "CV_q90": 0.3877790631067907,
       "CV_q95": 0.4899716020262743,
-      "roc_auc": 0.9297701408258378,
-      "roc_auc_directional": 0.961058968751354,
-      "nr_prec": 87911,
-      "nr_prec_HUMAN": 69157,
-      "nr_prec_YEAST": 14235,
-      "nr_prec_ECOLI": 4519,
-      "variance_epsilon_global": 0.1515411147047411
+      "variance_epsilon_global": 0.1515411147047411,
+      "nr_feature": 87911,
+      "roc_auc": 0.9297701408258378
     },
     "4": {
       "median_abs_epsilon_global": 0.1775310139199986,
@@ -127,13 +118,9 @@
       "CV_q75": 0.24994464911013514,
       "CV_q90": 0.3945121042033608,
       "CV_q95": 0.4994252419893114,
-      "roc_auc": 0.9199028800075566,
-      "roc_auc_directional": 0.949971517250761,
-      "nr_prec": 96382,
-      "nr_prec_HUMAN": 74648,
-      "nr_prec_YEAST": 15931,
-      "nr_prec_ECOLI": 5803,
-      "variance_epsilon_global": 0.18831102121764953
+      "variance_epsilon_global": 0.18831102121764953,
+      "nr_feature": 96382,
+      "roc_auc": 0.9199028800075566
     },
     "3": {
       "median_abs_epsilon_global": 0.18035140374337288,
@@ -166,13 +153,9 @@
       "CV_q75": 0.252191094849871,
       "CV_q90": 0.3976454892564334,
       "CV_q95": 0.5035720390807054,
-      "roc_auc": 0.9146060662195122,
-      "roc_auc_directional": 0.9447921989699165,
-      "nr_prec": 99789,
-      "nr_prec_HUMAN": 76136,
-      "nr_prec_YEAST": 16620,
-      "nr_prec_ECOLI": 7033,
-      "variance_epsilon_global": 0.21106804027890386
+      "variance_epsilon_global": 0.21106804027890386,
+      "nr_feature": 99789,
+      "roc_auc": 0.9146060662195122
     },
     "2": {
       "median_abs_epsilon_global": 0.1810122161572041,
@@ -205,13 +188,9 @@
       "CV_q75": 0.25255554354153964,
       "CV_q90": 0.3985007665542232,
       "CV_q95": 0.5048643666999659,
-      "roc_auc": 0.9130925368772499,
-      "roc_auc_directional": 0.9428984477281286,
-      "nr_prec": 101713,
-      "nr_prec_HUMAN": 77388,
-      "nr_prec_YEAST": 17084,
-      "nr_prec_ECOLI": 7241,
-      "variance_epsilon_global": 0.21532470181194924
+      "variance_epsilon_global": 0.21532470181194924,
+      "nr_feature": 101713,
+      "roc_auc": 0.9130925368772499
     },
     "1": {
       "median_abs_epsilon_global": 0.1810122161572041,
@@ -244,42 +223,11 @@
       "CV_q75": 0.25255554354153964,
       "CV_q90": 0.3985007665542232,
       "CV_q95": 0.5048643666999659,
-      "roc_auc": 0.9130925368772499,
-      "roc_auc_directional": 0.9428984477281286,
-      "nr_prec": 102260,
-      "nr_prec_HUMAN": 77748,
-      "nr_prec_YEAST": 17226,
-      "nr_prec_ECOLI": 7286,
-      "variance_epsilon_global": 0.21532470181194924
+      "variance_epsilon_global": 0.21532470181194924,
+      "nr_feature": 102260,
+      "roc_auc": 0.9130925368772499
     }
   },
-  "median_abs_epsilon": NaN,
-  "mean_abs_epsilon": NaN,
-  "nr_prec": 102260,
-  "comments": "",
-  "proteobench_version": "0.13.2",
-  "color": "#d42f2f",
-  "hover_text": "ProteoBench ID: DIA-NN_20251027_132217<br>Software tool: DIA-NN <br>Comment (private submission): ...",
-  "scatter_size": 20,
-  "fixed_mods": "unimod4",
-  "variable_mods": "UniMod:35/15.994915/M,UniMod:1/42.010565/*n",
-  "max_mods": 1,
-  "min_precursor_charge": 1,
-  "max_precursor_charge": 4,
-  "quantification_method": "QuantUMS high-precision",
-  "protein_inference": "Genes",
-  "abundance_normalization_ions": "Cross-run normalization",
-  "submission_comments": "Resubmission of 313d3b3a4ea82c554fc245e41e23f68aaa4c85b6 after changing quant column from Precursor.Quantity -> Precursor.Normalised\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/ee003831abbf5a91e735b6426869566147febe7c/",
-  "min_precursor_mz": "400",
-  "max_precursor_mz": "1000",
-  "min_fragment_mz": "50",
-  "max_fragment_mz": "2000",
-  "predictors_library": {
-    "RT": "DIANN",
-    "IM": "DIANN",
-    "MS2_int": "DIANN"
-  },
-  "scan_window": 8,
   "median_abs_epsilon_global": 0.1810122161572041,
   "mean_abs_epsilon_global": 0.2902745310720274,
   "median_abs_epsilon_eq_species": 0.2649068077204495,
@@ -287,5 +235,28 @@
   "median_abs_epsilon_precision_global": 0.1721787031252191,
   "mean_abs_epsilon_precision_global": 0.2801471807208486,
   "median_abs_epsilon_precision_eq_species": 0.2377971193033206,
-  "mean_abs_epsilon_precision_eq_species": 0.36598968779786073
+  "mean_abs_epsilon_precision_eq_species": 0.36598968779786073,
+  "nr_feature": 102260,
+  "comments": "",
+  "proteobench_version": "0.16.5",
+  "old_new": "new",
+  "fixed_mods": "C[Carbamidomethyl]",
+  "variable_mods": "M[Oxidation], N-term[Acetyl]",
+  "max_mods": 1,
+  "min_precursor_charge": 1,
+  "max_precursor_charge": 4,
+  "min_precursor_mz": 400,
+  "max_precursor_mz": 1000,
+  "min_fragment_mz": 50,
+  "max_fragment_mz": 2000,
+  "quantification_method": "QuantUMS high-precision",
+  "protein_inference": "Genes",
+  "abundance_normalization_ions": "Cross-run normalization",
+  "predictors_library": {
+    "RT": "DIANN",
+    "IM": "DIANN",
+    "MS2_int": "DIANN"
+  },
+  "scan_window": 8,
+  "submission_comments": "Resubmission of 313d3b3a4ea82c554fc245e41e23f68aaa4c85b6 after changing quant column from Precursor.Quantity -> Precursor.Normalised\n\n ### Parameter changes detected:\n- **ident_fdr_protein**: `None` \u2192 `nan`\n- **ident_fdr_peptide**: `None` \u2192 `nan`\n\nDataset URL: https://proteobench.cubimed.rub.de/datasets/ee003831abbf5a91e735b6426869566147febe7c/"
 }
