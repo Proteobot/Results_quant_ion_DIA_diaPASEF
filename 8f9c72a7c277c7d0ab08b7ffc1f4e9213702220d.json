@@ -5,14 +5,14 @@
   "software_version": "1.12.1",
   "search_engine": "AlphaDIA",
   "search_engine_version": NaN,
-  "ident_fdr_psm": 0.01,
+  "ident_fdr_psm": "0.01",
   "ident_fdr_peptide": NaN,
-  "ident_fdr_protein": 0.01,
+  "ident_fdr_protein": "0.01",
   "enable_match_between_runs": true,
   "precursor_mass_tolerance": "[-0 ppm, 0 ppm]",
   "fragment_mass_tolerance": "[-0 ppm, 0 ppm]",
-  "enzyme": "Trypsin/P",
-  "allowed_miscleavages": 1,
+  "enzyme": "trypsin/p ",
+  "allowed_miscleavages": "1",
   "min_peptide_length": 6,
   "max_peptide_length": 30,
   "is_temporary": false,
@@ -49,9 +49,13 @@
       "CV_q75": 0.25177880808773323,
       "CV_q90": 0.38673254928269607,
       "CV_q95": 0.49867834538520706,
-      "variance_epsilon_global": 0.1693678972976936,
-      "nr_feature": 58172,
-      "roc_auc": 0.9136003267150017
+      "roc_auc": 0.9136003267150017,
+      "roc_auc_directional": 0.9437425936802941,
+      "nr_prec": 58172,
+      "nr_prec_HUMAN": 48319,
+      "nr_prec_YEAST": 7509,
+      "nr_prec_ECOLI": 2344,
+      "variance_epsilon_global": 0.1693678972976936
     },
     "5": {
       "median_abs_epsilon_global": 0.1811418533298612,
@@ -84,9 +88,13 @@
       "CV_q75": 0.2609124650359982,
       "CV_q90": 0.4016717552036483,
       "CV_q95": 0.5233418011708435,
-      "variance_epsilon_global": 0.1935668594186124,
-      "nr_feature": 65182,
-      "roc_auc": 0.9043957914024984
+      "roc_auc": 0.9043957914024984,
+      "roc_auc_directional": 0.9332264659276444,
+      "nr_prec": 65182,
+      "nr_prec_HUMAN": 52746,
+      "nr_prec_YEAST": 9008,
+      "nr_prec_ECOLI": 3428,
+      "variance_epsilon_global": 0.1935668594186124
     },
     "4": {
       "median_abs_epsilon_global": 0.1886398792309354,
@@ -119,9 +127,13 @@
       "CV_q75": 0.2649940174688564,
       "CV_q90": 0.40817094800875253,
       "CV_q95": 0.533359154678968,
-      "variance_epsilon_global": 0.22010836740249284,
-      "nr_feature": 69092,
-      "roc_auc": 0.8957934223843882
+      "roc_auc": 0.8957934223843882,
+      "roc_auc_directional": 0.9204122643052769,
+      "nr_prec": 69092,
+      "nr_prec_HUMAN": 55035,
+      "nr_prec_YEAST": 10191,
+      "nr_prec_ECOLI": 3866,
+      "variance_epsilon_global": 0.22010836740249284
     },
     "3": {
       "median_abs_epsilon_global": 0.19226598738678735,
@@ -154,9 +166,13 @@
       "CV_q75": 0.2667322423905637,
       "CV_q90": 0.41128163614909413,
       "CV_q95": 0.5382384529931865,
-      "variance_epsilon_global": 0.23098074340240485,
-      "nr_feature": 71361,
-      "roc_auc": 0.8904173855453489
+      "roc_auc": 0.8904173855453489,
+      "roc_auc_directional": 0.915428446066558,
+      "nr_prec": 71361,
+      "nr_prec_HUMAN": 56445,
+      "nr_prec_YEAST": 10836,
+      "nr_prec_ECOLI": 4080,
+      "variance_epsilon_global": 0.23098074340240485
     },
     "2": {
       "median_abs_epsilon_global": 0.19257799780622697,
@@ -189,9 +205,13 @@
       "CV_q75": 0.26693547919395344,
       "CV_q90": 0.4115887751704241,
       "CV_q95": 0.5387892116327294,
-      "variance_epsilon_global": 0.2333394775519615,
-      "nr_feature": 72028,
-      "roc_auc": 0.8896249834101746
+      "roc_auc": 0.8896249834101746,
+      "roc_auc_directional": 0.9145899834384705,
+      "nr_prec": 72028,
+      "nr_prec_HUMAN": 56824,
+      "nr_prec_YEAST": 11074,
+      "nr_prec_ECOLI": 4130,
+      "variance_epsilon_global": 0.2333394775519615
     },
     "1": {
       "median_abs_epsilon_global": 0.19257799780622697,
@@ -224,19 +244,26 @@
       "CV_q75": 0.26693547919395344,
       "CV_q90": 0.4115887751704241,
       "CV_q95": 0.5387892116327294,
-      "variance_epsilon_global": 0.2333394775519615,
-      "nr_feature": 72028,
-      "roc_auc": 0.8896249834101746
+      "roc_auc": 0.8896249834101746,
+      "roc_auc_directional": 0.9145899834384705,
+      "nr_prec": 72028,
+      "nr_prec_HUMAN": 56824,
+      "nr_prec_YEAST": 11074,
+      "nr_prec_ECOLI": 4130,
+      "variance_epsilon_global": 0.2333394775519615
     }
   },
   "median_abs_epsilon": NaN,
   "mean_abs_epsilon": NaN,
-  "nr_feature": 72028,
+  "nr_prec": 72028,
   "comments": "",
-  "proteobench_version": "0.16.4",
-  "fixed_mods": "C[Carbamidomethyl]",
-  "variable_mods": "M[Oxidation], Protein N-term[Acetyl]",
-  "max_mods": 1,
+  "proteobench_version": "0.13.2",
+  "color": "#1D2732",
+  "hover_text": "ProteoBench ID: AlphaDIA_20251027_154327<br>Software tool: AlphaDIA <br>Comment (private submission): ...",
+  "scatter_size": 20,
+  "fixed_mods": "Carbamidomethyl@C",
+  "variable_mods": "Oxidation@M;Acetyl@Protein_N-term",
+  "max_mods": "1 ",
   "min_precursor_charge": 1,
   "max_precursor_charge": 5,
   "quantification_method": "DirectLFQ",
@@ -256,7 +283,5 @@
   "median_abs_epsilon_precision_global": 0.18296861648589857,
   "mean_abs_epsilon_precision_global": 0.2930087050649533,
   "median_abs_epsilon_precision_eq_species": 0.26532861921023415,
-  "mean_abs_epsilon_precision_eq_species": 0.39015710055156033,
-  "semi_enzymatic": NaN,
-  "semi_specific": NaN
+  "mean_abs_epsilon_precision_eq_species": 0.39015710055156033
 }
