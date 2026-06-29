@@ -238,7 +238,7 @@
   "mean_abs_epsilon_precision_eq_species": 0.33803966027493154,
   "nr_feature": 71702,
   "comments": "",
-  "proteobench_version": "0.16.5",
+  "proteobench_version": "0.16.7",
   "old_new": "new",
   "fixed_mods": "C[Carbamidomethyl]",
   "variable_mods": "M[Oxidation], Protein N-term[Acetyl]",
